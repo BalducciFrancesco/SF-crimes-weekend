@@ -4,3 +4,7 @@
 @import "{{ site.theme }}";
 
 // Add your custom CSS here
+
+a:not(.post-link):hover {
+    font-weight: normal;
+}
