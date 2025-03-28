@@ -4,6 +4,54 @@ title: "Example"
 date:   2025-03-27 15:00:00 +0100
 ---
 
+# Crime Data Visualization Report
+
+## 1. Brief Context  
+This work is part of our course on data visualization. The focus is on understanding the importance of visualization in exploring and communicating data insights effectively.
+
+## 2. Dataset Context  
+- **Source & Acquisition**: [Describe how the dataset was obtained and any references]  
+- **Contents**: The dataset includes information on various types of crimes, timestamps, and locations.  
+- **Format**: The dataset is available in [mention format, e.g., CSV, JSON, SQL].  
+
+## 3. Goal of the Assignment  
+Our objective is to analyze interesting trends in crime data by applying **X techniques** (e.g., statistical analysis, graphical representation).  
+
+## 4. Steps of Analysis  
+1. **Exploratory Graphical Analysis**:  
+   - We created draft plots to generate hypotheses.  
+   - We referenced *The Grammar of Graphics* for structuring our visualization process.  
+2. **Refining the Dataset**:  
+   - Based on the initial insights, we focused on relevant data points.  
+3. **Presentation Graphics**:  
+   - We designed clear and informative visualizations.  
+
+## 5. First Plot: Barcharts  
+- **Type**: 2x2 grid of bar charts  
+- **Data**:  
+  - Assault by day of the week  
+  - Malicious mischief by day of the week  
+  - Assault by time of day  
+  - Malicious mischief by time of day  
+
+## 6. Second Plot: SF Heat Map (6 Slides)  
+- **Visualization**:  
+  - Assault and malicious mischief mapped with two colors.  
+  - Weekdays split into three time ranges.  
+  - Weekends split into three time ranges.  
+
+## 7. Third Plot: Timeline Chart (Bokeh)  
+- **Reference**: [Bokeh Timeseries Guide](https://docs.bokeh.org/en/3.0.3/docs/user_guide/topics/timeseries.html)  
+- **Visualization**: Number of crimes per weekend from 2003 to 2024.  
+- **Objective**: Identify if the crime rate is improving over time.  
+
+## 8. Conclusions  
+[Summarize findings, key takeaways, and any insights from the visualizations.]  
+
+## 9. Contributions  
+- **[Your Name]**: [Contribution details]  
+- **[Teammate Name]**: [Contribution details]  
+
 # Testing out latex
 
 $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
