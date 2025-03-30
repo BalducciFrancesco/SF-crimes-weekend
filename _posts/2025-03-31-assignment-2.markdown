@@ -81,5 +81,5 @@ If you’re searching for a pub or club, things get trickier. On Saturday night 
   How about enjoying a **laid-back night with craft beers** in a safer setting? Head to **Richmond or Presidio**. These neighborhoods are home to some of San Francisco’s best [microbreweries](https://www.sftravel.com/article/san-francisco-nightlife-neighborhood) and show **significantly lower crime rates** compared to downtown nightlife districts.  
 
 # Bukeh plot
-This plot shows the average 
-<iframe src="/assets/images/crime_patterns_by_day.html" width="1000" height="600"></iframe>
+This plot shows the average crime for each day of the year. 
+<iframe src="/assets/templates/combined_crime_patterns_with_legend.html" width="800" height="300" frameBorder=0></iframe>
