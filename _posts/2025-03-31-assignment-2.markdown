@@ -55,6 +55,31 @@ Returning to our goal, we observed that **assaults** and **malicious mischief** 
 
 As seen in the plot, considering the entire data span, assaults rarely exceeded 30,000 during the weekdays, while on the weekend, they grew and almost reached 40,000 on Saturdays. The same pattern applies (with about 10,000 fewer daily occurrences overall) for malicious mischief, with the only difference being that Fridays had more occurrences than Sundays. A **clear preference for Saturdays and nighttime hours** seems to apply in both cases, suggesting that external factors like drinking or hanging out may play a role.
 
+## Navigating San Francisco: Where to Go and What to Avoid  
+
+It’s the weekend, and like most people, you’re ready to unwind and explore the city. Maybe you’re a family looking to relax in one of San Francisco’s beautiful parks, or a group of college friends excited for a night out at your favorite pub. The last thing on your mind? Crime.  
+
+But what if you could know exactly where and when crime is most likely to happen? That’s exactly what we set out to uncover. By analyzing crime data of assaults and malicious mischief, which came out that have their peak during weekends, and visualizing it in a **Time Heat Map**, we reveal the city’s weekend crime, so you choose the safest places to enjoy your time. 
+
+[Heat map of assault and malicious mischief crimes](/assets/sources/sf_heatmap.html)  
+
+This interactive map allows you to explore crime trends across the city and different time periods. We grouped the data into three-hour intervals, covering the period **from Friday at 6 PM to Sunday at midnight**. Now let's have a look 
+
+### **If You’re a Family Looking for Green Spaces...**  
+Good news! Most parks are safe havens. Whether you’re planning a picnic or letting the kids play, you generally have little to worry about. That said, **Golden Gate Park** does show a slight uptick in assaults during the afternoon (3–6 PM). This could be due to its big size and popularity, but compared to other areas, it remains relatively safe.  
+
+### **If You’re Exploring San Francisco’s Nightlife...**  
+If you’re searching for a pub or club, things get trickier. On Saturday night (9 PM–midnight), much of the city center turns red, indicating a high concentration of crime. But don’t worry, there are still safer areas to enjoy.  
+
+- **Tenderloin: A No-Go Zone**  
+  Despite its many clubs, theaters, and bars near Union Square, it remains one of the city’s **most dangerous areas**. It’s no secret that the Tenderloin has a bad reputation, and the heat map confirms it. Nearly every street in this neighborhood turns red on Saturday night (9 PM–midnight), indicating high crime levels. As [Wikipedia](https://en.wikipedia.org/wiki/Tenderloin,_San_Francisco#Crime) puts it, this neighborhood has *particularly violent street crime such as robbery and aggravated assault*.  
+
+- **11th Street: Fun but Risky**  
+  Located between the **SOMA and Mission** neighborhoods, **11th Street** is home to some of the city’s [most popular clubs](https://www.yelp.com/search?cflt=danceclubs&find_loc=11th+St%2C+San+Francisco%2C+CA+94103). The heat map suggests that while not as dangerous as the Tenderloin, it still has a noticeable crime presence, so stay aware of your surroundings. 
+
+- **🍻 Richmond & Presidio: A Safer Alternative**  
+  How about enjoying a **laid-back night with craft beers** in a safer setting? Head to **Richmond or Presidio**. These neighborhoods are home to some of San Francisco’s best [microbreweries](https://www.sftravel.com/article/san-francisco-nightlife-neighborhood) and show **significantly lower crime rates** compared to downtown nightlife districts.  
+
 # Bukeh plot
 This plot shows the average 
 <iframe src="/assets/images/crime_patterns_by_day.html" width="1000" height="600"></iframe>
