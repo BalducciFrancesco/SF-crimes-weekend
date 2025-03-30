@@ -57,4 +57,4 @@ As seen in the plot, considering the entire data span, assaults rarely exceeded 
 
 # Bukeh plot
 This plot shows the average 
-<a href="/assets/images/crime_patterns_by_day.html" target="_blank">View Crime Patterns Plot</a>
+<iframe src="/assets/images/crime_patterns_by_day.html" width="1000" height="600"></iframe>
