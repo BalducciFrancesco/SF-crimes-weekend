@@ -87,28 +87,28 @@ This visualization displays the average number of incidents per day for two crim
 
 The plot reveals a strong correlation between incidents of assault and malicious mischief, with increases in one crime type often accompanied by similar trends in the other. However, some exceptions stand out—particularly in weeks 1, 30, 34, 35, 36, 41, and 50, where midweek spikes in assault are not matched by corresponding increases in malicious mischief. Another clear pattern is the higher prevalence of both crime types on weekends compared to weekdays. Despite these spikes, overall crime levels remain relatively stable, ranging between 17 and 35 incidents per week.
 
-**Notable Time Periods**
-* New Year’s Celebrations (Weeks 52 & 1)
+### Notable Time Periods
+- **New Year’s Celebrations (Weeks 52 & 1)**
 The transition between these two weeks includes New Year's Eve and New Year's Day, both of which are associated with celebrations that can lead to heightened incidents of assault and vandalism. Here we do see a spike, especally in the end of week 52.
 
-* Spring Break (Weeks 12–16)
+- **Spring Break (Weeks 12–16)**
 Different school districts and colleges schedule their spring breaks at varying times during March and April. This period often sees increased nightlife activity, which could influence crime patterns.
 
-* Summer & 4th of July (Weeks 26–32)
+- **Summer & 4th of July (Weeks 26–32)**
 Independence Day (Week 27) is one of the most widely celebrated holidays in the U.S., with large gatherings, fireworks, and alcohol consumption contributing to spikes in crime. More broadly, the summer vacation period (Weeks 26–32) attracts many tourists to San Francisco, leading to increased public activity. Assault incidents rise notably on weekends and Fridays, suggesting a link to social events.
 
-* Late Summer & Tourism Peaks (Weeks 30, 34–36)
+- **Late Summer & Tourism Peaks (Weeks 30, 34–36)**
 These weeks fall within the core of the American summer vacation season. With schools closed and high tourist activity, increased public interactions may contribute to fluctuations in crime rates.
 
-* Autumn Break (Week 41)
+- **Autumn Break (Week 41)**
 Many schools schedule a short break in mid-October, potentially creating crime patterns due to increased leisure time.
 
-* Halloween (Week 44)
+- **Halloween (Week 44)**
 Halloween celebrations can contribute to public disturbances and vandalism. Interestingly, while both crime types show a midweek spike, malicious mischief does not increase as much as expected. A dip in crime in the following week suggests that incidents may cluster around Halloween before returning to normal levels.
 
-* Pre-Holiday Season (Week 50)
+- **Pre-Holiday Season (Week 50)**
 Crime rates begin to rise again in mid-December, possibly influenced by holiday shopping, social events, and end-of-year festivities.
 
-**Conclusion**
+
 While crime levels remain relatively stable, they are influenced by social patterns, seasonal events, and major holidays. Assault and malicious mischief generally follow the same trends, with weekend spikes and holiday-related fluctuations standing out as key factors.
 
