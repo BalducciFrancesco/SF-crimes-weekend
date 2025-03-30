@@ -63,7 +63,7 @@ But what if you could know exactly where and when crime is most likely to happen
 
 <iframe src="/assets/sources/sf_heatmap.html" width="800" height="300" frameBorder=0></iframe>
 
-This interactive map allows you to explore crime trends across the city and different time periods. We grouped the data into three-hour intervals, covering the period **from Friday at 6 PM to Sunday at midnight**. Now let's have a look 
+This interactive map allows you to explore crime trends across the city and different time periods. We grouped the data into three-hour intervals, covering the period **from Friday at 6 PM to Sunday at midnight**. Now let's have a look to some possible scenarios.
 
 ### **If You’re a Family Looking for Green Spaces**  
 Good news! Most parks are safe havens. Whether you’re planning a picnic or letting the kids play, you generally have little to worry about. That said, **Golden Gate Park** does show a slight uptick in assaults during the afternoon (3–6 PM). This could be due to its big size and popularity, but compared to other areas, it remains relatively safe.  
@@ -77,7 +77,7 @@ If you’re searching for a pub or club, things get trickier. On Saturday night 
 - **11th Street: Fun but Risky**  
   Located between the **SOMA and Mission** neighborhoods, **11th Street** is home to some of the city’s [most popular clubs](https://www.yelp.com/search?cflt=danceclubs&find_loc=11th+St%2C+San+Francisco%2C+CA+94103). The heat map suggests that while not as dangerous as the Tenderloin, it still has a noticeable crime presence, so stay aware of your surroundings. 
 
-- **🍻 Richmond & Presidio: A Safer Alternative**  
+- **Richmond & Presidio: A Safer Alternative**  
   How about enjoying a **laid-back night with craft beers** in a safer setting? Head to **Richmond or Presidio**. These neighborhoods are home to some of San Francisco’s best [microbreweries](https://www.sftravel.com/article/san-francisco-nightlife-neighborhood) and show **significantly lower crime rates** compared to downtown nightlife districts.  
 
 # Bukeh plot
