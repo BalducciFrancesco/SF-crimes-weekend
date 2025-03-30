@@ -61,14 +61,14 @@ It’s the weekend, and like most people, you’re ready to unwind and explore t
 
 But what if you could know exactly where and when crime is most likely to happen? That’s exactly what we set out to uncover. By analyzing crime data of assaults and malicious mischief, which came out that have their peak during weekends, and visualizing it in a **Time Heat Map**, we reveal the city’s weekend crime, so you choose the safest places to enjoy your time. 
 
-[Heat map of assault and malicious mischief crimes](/assets/sources/sf_heatmap.html)  
+<iframe src="/assets/sources/sf_heatmap.html" width="800" height="300" frameBorder=0></iframe>
 
 This interactive map allows you to explore crime trends across the city and different time periods. We grouped the data into three-hour intervals, covering the period **from Friday at 6 PM to Sunday at midnight**. Now let's have a look 
 
-### **If You’re a Family Looking for Green Spaces...**  
+### **If You’re a Family Looking for Green Spaces**  
 Good news! Most parks are safe havens. Whether you’re planning a picnic or letting the kids play, you generally have little to worry about. That said, **Golden Gate Park** does show a slight uptick in assaults during the afternoon (3–6 PM). This could be due to its big size and popularity, but compared to other areas, it remains relatively safe.  
 
-### **If You’re Exploring San Francisco’s Nightlife...**  
+### **If You’re Exploring San Francisco’s Nightlife**  
 If you’re searching for a pub or club, things get trickier. On Saturday night (9 PM–midnight), much of the city center turns red, indicating a high concentration of crime. But don’t worry, there are still safer areas to enjoy.  
 
 - **Tenderloin: A No-Go Zone**  
