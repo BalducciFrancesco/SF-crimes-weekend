@@ -65,4 +65,4 @@ The plot showing crime counts independently of the category, seems to indicate t
 
 # Testing out interactive Bokeh viz
 
-<iframe src="/assets/templates/plot1.html" width="800" height="300" frameBorder=0></iframe>
+<iframe src="/assets/templates/combined_crime_patterns_with_legend.html" width="800" height="300" frameBorder=0></iframe>
