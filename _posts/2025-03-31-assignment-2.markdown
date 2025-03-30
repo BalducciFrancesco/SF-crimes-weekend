@@ -54,3 +54,7 @@ Returning to our goal, we observed that **assaults** and **malicious mischief** 
 ![Crime categories occurring more often in the weekend and at night](/assets/images/assignment2_plot1.png)
 
 As seen in the plot, considering the entire data span, assaults rarely exceeded 30,000 during the weekdays, while on the weekend, they grew and almost reached 40,000 on Saturdays. The same pattern applies (with about 10,000 fewer daily occurrences overall) for malicious mischief, with the only difference being that Fridays had more occurrences than Sundays. A **clear preference for Saturdays and nighttime hours** seems to apply in both cases, suggesting that external factors like drinking or hanging out may play a role.
+
+# Bukeh plot
+This plot shows the average 
+<a href="/assets/images/crime_patterns_by_day.html" target="_blank">View Crime Patterns Plot</a>
