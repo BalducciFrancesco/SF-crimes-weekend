@@ -65,6 +65,7 @@ But what if you could know exactly where and when crime is most likely to happen
 
 This interactive map allows you to explore crime trends across the city and different time periods. We grouped the data into three-hour intervals, covering the period **from Friday at 6 PM to Sunday at midnight**. Now let's have a look to some possible scenarios.
 
+### If you're visiting with children
 Good news! Most parks are safe havens. Whether you’re planning a picnic or letting the kids play, you generally have little to worry about. That said, **Golden Gate Park** does show a slight uptick in assaults during the afternoon (3–6 PM). This could be due to its big size and popularity, but compared to other areas, it remains relatively safe.  
 
 ### If You’re Exploring San Francisco’s Nightlife
@@ -84,23 +85,23 @@ This visualization displays the average number of incidents throughout the year 
 
 <iframe src="{{ site.baseurl }}/assets/templates/combined_crime_patterns_with_legend.html" frameborder="0" style="height: 550px; width: 100%; min-width: 800px"></iframe>
 
-The plot underscores a clear weekend dependency for both assault and malicious mischief, with crime levels for both categories consistently spiking on weekends compared to weekdays. This pattern suggests that external factors, such as increased social activity or alcohol consumption, may play a significant role in driving these trends. While the two crime types often rise and fall together, this correlation appears to be a consequence of their shared weekend dependency rather than a direct relationship. Notably, exceptions such as weeks 1, 30, 34, 35, 36, 41, and 50 reveal midweek spikes in assault that are not mirrored by malicious mischief, further emphasizing the independent yet parallel weekend-driven behavior of these crimes. Despite these weekend surges, overall crime levels remain relatively stable, ranging between 17 and 35 incidents per week.
+The plot underscores a clear weekend dependency for both assault and malicious mischief, with crime levels for both categories consistently spiking on weekends compared to weekdays. This pattern suggests that external factors, such as increased social activity or alcohol consumption, may play a significant role in these trends. While the two crime types often rise and fall together, this correlation appears to be a consequence of their shared weekend dependency rather than a direct relationship. There are a few exceptions to the trend, such as weeks 1, 30, 34, 35, 36, 41, and 50 that reveal midweek spikes in assault that are not mirrored by malicious mischief. Despite these weekend spikes, overall crime levels remain relatively stable, ranging between 17 and 35 incidents per week.
 
 ### Notable Time Periods
 - **New Year’s Celebrations (Weeks 52 & 1)**
   The transition between these two weeks includes New Year's Eve and New Year's Day, both of which are associated with celebrations that can lead to heightened incidents of assault and vandalism. Here we do see a spike, especally in the end of week 52.
 
 - **Spring Break (Weeks 12–16)**
-  Different school districts and colleges schedule their spring breaks at varying times during March and April. This period often sees increased nightlife activity, which could influence crime patterns.
+  Different school districts and colleges schedule their spring breaks at varying times during March and April. This period often sees increased nightlife activity, which could influence crime patterns. And we do see relatively high spikes doing this time period.
 
 - **Summer & 4th of July (Weeks 26–32)**
-  Independence Day (Week 27) is one of the most widely celebrated holidays in the U.S., with large gatherings, fireworks, and alcohol consumption contributing to spikes in crime. More broadly, the summer vacation period (Weeks 26–32) attracts many tourists to San Francisco, leading to increased public activity. Assault incidents rise notably on weekends and Fridays, suggesting a link to social events.
+  Independence Day (Week 27) is one of the most widely celebrated holidays in the U.S., with large gatherings, fireworks, and alcohol consumption contributing to spikes in crime. More broadly, the summer vacation period (Weeks 26–32) attracts many tourists to San Francisco, leading to increased public activity. Assault incidents rise notably on the weekends, suggesting a link to social events.
 
-- **Late Summer & Tourism Peaks (Weeks 30, 34–36)**
-  These weeks fall within the core of the American summer vacation season. With schools closed and high tourist activity, increased public interactions may contribute to fluctuations in crime rates.
+- **Late Summer & Tourism Peaks (Weeks 34–36)**
+  These weeks fall within the core of the American summer vacation season. With schools closed and high tourist activity, increased public interactions may contribute to fluctuations in crime rates. In this time period we see unusually elevated crime rate doing the week, indicating changed behaviour over the summer.
 
 - **Autumn Break (Week 41)**
-  Many schools schedule a short break in mid-October, potentially creating crime patterns due to increased leisure time.
+  Many schools schedule a short break in mid-October, potentially creating crime patterns due to increased leisure time. We see a spike in assault mid-week, but no elevated mischeif. 
 
 - **Halloween (Week 44)**
   Halloween celebrations can contribute to public disturbances and vandalism. Interestingly, while both crime types show a midweek spike, malicious mischief does not increase as much as expected. A dip in crime in the following week suggests that incidents may cluster around Halloween before returning to normal levels.
@@ -116,6 +117,6 @@ We worked together on the exercises during class and then collaborated closely, 
 
 | Student              | Main Responsibility           |
 | ---------------------|-------------------------------|
-| Ludovico Cappellato  | Third step                    |
-| Maja Klerk           | Second step                   |
+| Ludovico Cappellato  | Second step                    |
+| Maja Klerk           | Third step                   |
 | Francesco Balducci   | Website, Introduction, First step |
