@@ -33,7 +33,7 @@ In total, there are **3,004,644** crimes recorded **from 2003 to 2024**, which w
 
 The purpose of this assignment is to bring together everything we've learned about data visualization. This includes using techniques for data exploration and effectively communicating findings, all while making the information accessible to a broad audience.
 
-# Step-by-step
+# Step-by-stepsdas
 
 Here we go with the actual analysis. Brace yourselves!
 
