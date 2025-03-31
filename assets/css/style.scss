@@ -8,3 +8,9 @@
 a:hover {
     font-weight: unset;
 }
+
+@media print, screen and (max-width: 960px) {
+    header {
+        padding-right: unset;
+    }
+} 
