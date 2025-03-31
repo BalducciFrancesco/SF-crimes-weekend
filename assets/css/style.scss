@@ -14,3 +14,17 @@ a:hover {
         padding-right: unset;
     }
 } 
+
+@media print, screen and (max-height: 600px) {
+    footer {
+        display: none;
+    }
+} 
+
+.wrapper {
+    width: 1200px;
+}
+
+section {
+    width: 800px;
+}

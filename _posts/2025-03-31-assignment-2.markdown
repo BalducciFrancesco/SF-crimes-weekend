@@ -83,7 +83,7 @@ If you’re searching for a pub or club, things get trickier. On Saturday night 
 # Bukeh plot
 This visualization displays the average number of incidents per day for two crime categories across all weeks of the year. The main plot shows daily averages, with weekends highlighted in a light red shade to indicate potential shifts in crime patterns between weekdays and weekends. An interactive time slider below presents the total number of incidents per week, allowing users to adjust the view in the main plot. The legend on the right distinguishes between the two crime categories, providing a clear comparison of their trends over time.
 
-<iframe src="{{ site.baseurl }}/assets/templates/combined_crime_patterns_with_legend.html" frameborder="0" style="width: 100%; height: 550px"></iframe>
+<iframe src="{{ site.baseurl }}/assets/templates/combined_crime_patterns_with_legend.html" frameborder="0" style="height: 550px; width: 100%; min-width: 800px"></iframe>
 
 The plot reveals a strong correlation between incidents of assault and malicious mischief, with increases in one crime type often accompanied by similar trends in the other. However, some exceptions stand out—particularly in weeks 1, 30, 34, 35, 36, 41, and 50, where midweek spikes in assault are not matched by corresponding increases in malicious mischief. Another clear pattern is the higher prevalence of both crime types on weekends compared to weekdays. Despite these spikes, overall crime levels remain relatively stable, ranging between 17 and 35 incidents per week.
 
