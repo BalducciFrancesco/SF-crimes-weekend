@@ -51,7 +51,7 @@ However, there were some surprises. For example, it might be surprising to learn
 
 Returning to our goal, we observed that **assaults** and **malicious mischief** indeed occurred more frequently on weekends and at night. So, we created a specific plot to highlight these findings:
 
-![Crime categories occurring more often in the weekend and at night](/assets/images/assignment2_plot1.png)
+![Crime categories occurring more often in the weekend and at night]({{ site.baseurl }}/assets/images/assignment2_plot1.png)
 
 As seen in the plot, considering the entire data span, assaults rarely exceeded 30,000 during the weekdays, while on the weekend, they grew and almost reached 40,000 on Saturdays. The same pattern applies (with about 10,000 fewer daily occurrences overall) for malicious mischief, with the only difference being that Fridays had more occurrences than Sundays. A **clear preference for Saturdays and nighttime hours** seems to apply in both cases, suggesting that external factors like drinking or hanging out may play a role.
 
@@ -61,7 +61,7 @@ It’s the weekend, and like most people, you’re ready to unwind and explore t
 
 But what if you could know exactly where and when crime is most likely to happen? That’s exactly what we set out to uncover. By analyzing crime data of assaults and malicious mischief, which came out that have their peak during weekends, and visualizing it in a **Time Heat Map**, we reveal the city’s weekend crime, so you choose the safest places to enjoy your time. 
 
-<iframe src="/assets/sources/sf_heatmap.html" width="800" height="300" frameBorder=0></iframe>
+<iframe src="{{ site.baseurl }}/assets/sources/sf_heatmap.html" width="800" height="300" frameBorder=0></iframe>
 
 This interactive map allows you to explore crime trends across the city and different time periods. We grouped the data into three-hour intervals, covering the period **from Friday at 6 PM to Sunday at midnight**. Now let's have a look to some possible scenarios.
 
@@ -83,7 +83,7 @@ If you’re searching for a pub or club, things get trickier. On Saturday night 
 # Bukeh plot
 This visualization displays the average number of incidents per day for two crime categories across all weeks of the year. The main plot shows daily averages, with weekends highlighted in a light red shade to indicate potential shifts in crime patterns between weekdays and weekends. An interactive time slider below presents the total number of incidents per week, allowing users to adjust the view in the main plot. The legend on the right distinguishes between the two crime categories, providing a clear comparison of their trends over time.
 
-<iframe src="/assets/templates/combined_crime_patterns_with_legend.html" width="800" height="300" frameBorder=0></iframe>
+<iframe src="{{ site.baseurl }}/assets/templates/combined_crime_patterns_with_legend.html" width="800" height="300" frameBorder=0></iframe>
 
 The plot reveals a strong correlation between incidents of assault and malicious mischief, with increases in one crime type often accompanied by similar trends in the other. However, some exceptions stand out—particularly in weeks 1, 30, 34, 35, 36, 41, and 50, where midweek spikes in assault are not matched by corresponding increases in malicious mischief. Another clear pattern is the higher prevalence of both crime types on weekends compared to weekdays. Despite these spikes, overall crime levels remain relatively stable, ranging between 17 and 35 incidents per week.
 
