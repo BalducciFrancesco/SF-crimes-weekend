@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Assignment 2"
-date:   2025-03-27 15:00:00 +0100
+date:   2025-03-31 12:00:00 +0100
 tags: assignment
 ---
 
@@ -33,7 +33,9 @@ In total, there are **3,004,644** crimes recorded **from 2003 to 2024**, which w
 
 The purpose of this assignment is to bring together everything we've learned about data visualization. This includes using techniques for data exploration and effectively communicating findings, all while making the information accessible to a broad audience.
 
-# Step-by-stepsdas
+# Step-by-step
+
+## Step 1: Making a hypothesis
 
 Here we go with the actual analysis. Brace yourselves!
 
@@ -53,7 +55,7 @@ Returning to our goal, we observed that **assaults** and **malicious mischief** 
 
 As seen in the plot, considering the entire data span, assaults rarely exceeded 30,000 during the weekdays, while on the weekend, they grew and almost reached 40,000 on Saturdays. The same pattern applies (with about 10,000 fewer daily occurrences overall) for malicious mischief, with the only difference being that Fridays had more occurrences than Sundays. A **clear preference for Saturdays and nighttime hours** seems to apply in both cases, suggesting that external factors like drinking or hanging out may play a role.
 
-## Navigating San Francisco: Where to Go and What to Avoid  
+## Step 2: Navigating San Francisco: Where to Go and What to Avoid
 
 It’s the weekend, and like most people, you’re ready to unwind and explore the city. Maybe you’re a family looking to relax in one of San Francisco’s beautiful parks, or a group of college friends excited for a night out at your favorite pub. The last thing on your mind? Crime.  
 
@@ -65,7 +67,7 @@ This interactive map allows you to explore crime trends across the city and diff
 
 Good news! Most parks are safe havens. Whether you’re planning a picnic or letting the kids play, you generally have little to worry about. That said, **Golden Gate Park** does show a slight uptick in assaults during the afternoon (3–6 PM). This could be due to its big size and popularity, but compared to other areas, it remains relatively safe.  
 
-## If You’re Exploring San Francisco’s Nightlife
+### If You’re Exploring San Francisco’s Nightlife
 If you’re searching for a pub or club, things get trickier. On Saturday night (9 PM–midnight), much of the city center turns red, indicating a high concentration of crime. But don’t worry, there are still safer areas to enjoy.  
 
 - **Tenderloin: A No-Go Zone**  
@@ -77,7 +79,7 @@ If you’re searching for a pub or club, things get trickier. On Saturday night 
 - **Richmond & Presidio: A Safer Alternative**  
   How about enjoying a **laid-back night with craft beers** in a safer setting? Head to **Richmond or Presidio**. These neighborhoods are home to some of San Francisco’s best [microbreweries](https://www.sftravel.com/article/san-francisco-nightlife-neighborhood) and show **significantly lower crime rates** compared to downtown nightlife districts.  
 
-# Bokeh plot
+## Step 3: A broader look to yearly data
 This visualization displays the average number of incidents throughout the year for the two crime categories mentioned, highlighting the individual weeks. The main plot shows daily averages, with weekends highlighted in a light red shade to indicate potential shifts in crime patterns between weekdays and weekends. An interactive time slider below presents the total number of incidents per week, allowing users to adjust the view in the main plot. The legend on the right distinguishes between the two crime categories, providing a clear comparison of their trends over time.
 
 <iframe src="{{ site.baseurl }}/assets/templates/combined_crime_patterns_with_legend.html" frameborder="0" style="height: 550px; width: 100%; min-width: 800px"></iframe>
