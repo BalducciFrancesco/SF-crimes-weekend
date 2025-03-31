@@ -5,8 +5,6 @@ date:   2025-03-27 15:00:00 +0100
 tags: assignment
 ---
 
-> **TODO: add reference to [DAOST](https://www.oreilly.com/library/view/data-analysis-with/9781449389802) and to [Narrative Visualization: Telling Stories with Data](http://vis.stanford.edu/files/2010-Narrative-InfoVis.pdf)**
-
 # Table of Contents
 
 * Table of Contents  
@@ -65,10 +63,9 @@ But what if you could know exactly where and when crime is most likely to happen
 
 This interactive map allows you to explore crime trends across the city and different time periods. We grouped the data into three-hour intervals, covering the period **from Friday at 6 PM to Sunday at midnight**. Now let's have a look to some possible scenarios.
 
-### **If You’re a Family Looking for Green Spaces**  
 Good news! Most parks are safe havens. Whether you’re planning a picnic or letting the kids play, you generally have little to worry about. That said, **Golden Gate Park** does show a slight uptick in assaults during the afternoon (3–6 PM). This could be due to its big size and popularity, but compared to other areas, it remains relatively safe.  
 
-### **If You’re Exploring San Francisco’s Nightlife**  
+## If You’re Exploring San Francisco’s Nightlife
 If you’re searching for a pub or club, things get trickier. On Saturday night (9 PM–midnight), much of the city center turns red, indicating a high concentration of crime. But don’t worry, there are still safer areas to enjoy.  
 
 - **Tenderloin: A No-Go Zone**  
@@ -80,12 +77,12 @@ If you’re searching for a pub or club, things get trickier. On Saturday night 
 - **Richmond & Presidio: A Safer Alternative**  
   How about enjoying a **laid-back night with craft beers** in a safer setting? Head to **Richmond or Presidio**. These neighborhoods are home to some of San Francisco’s best [microbreweries](https://www.sftravel.com/article/san-francisco-nightlife-neighborhood) and show **significantly lower crime rates** compared to downtown nightlife districts.  
 
-# Bukeh plot
-This visualization displays the average number of incidents per day for two crime categories across all weeks of the year. The main plot shows daily averages, with weekends highlighted in a light red shade to indicate potential shifts in crime patterns between weekdays and weekends. An interactive time slider below presents the total number of incidents per week, allowing users to adjust the view in the main plot. The legend on the right distinguishes between the two crime categories, providing a clear comparison of their trends over time.
+# Bokeh plot
+This visualization displays the average number of incidents throughout the year for the two crime categories mentioned, highlighting the individual weeks. The main plot shows daily averages, with weekends highlighted in a light red shade to indicate potential shifts in crime patterns between weekdays and weekends. An interactive time slider below presents the total number of incidents per week, allowing users to adjust the view in the main plot. The legend on the right distinguishes between the two crime categories, providing a clear comparison of their trends over time.
 
 <iframe src="{{ site.baseurl }}/assets/templates/combined_crime_patterns_with_legend.html" frameborder="0" style="height: 550px; width: 100%; min-width: 800px"></iframe>
 
-The plot reveals a strong correlation between incidents of assault and malicious mischief, with increases in one crime type often accompanied by similar trends in the other. However, some exceptions stand out—particularly in weeks 1, 30, 34, 35, 36, 41, and 50, where midweek spikes in assault are not matched by corresponding increases in malicious mischief. Another clear pattern is the higher prevalence of both crime types on weekends compared to weekdays. Despite these spikes, overall crime levels remain relatively stable, ranging between 17 and 35 incidents per week.
+The plot underscores a clear weekend dependency for both assault and malicious mischief, with crime levels for both categories consistently spiking on weekends compared to weekdays. This pattern suggests that external factors, such as increased social activity or alcohol consumption, may play a significant role in driving these trends. While the two crime types often rise and fall together, this correlation appears to be a consequence of their shared weekend dependency rather than a direct relationship. Notably, exceptions such as weeks 1, 30, 34, 35, 36, 41, and 50 reveal midweek spikes in assault that are not mirrored by malicious mischief, further emphasizing the independent yet parallel weekend-driven behavior of these crimes. Despite these weekend surges, overall crime levels remain relatively stable, ranging between 17 and 35 incidents per week.
 
 ### Notable Time Periods
 - **New Year’s Celebrations (Weeks 52 & 1)**
@@ -109,6 +106,14 @@ The plot reveals a strong correlation between incidents of assault and malicious
 - **Pre-Holiday Season (Week 50)**
   Crime rates begin to rise again in mid-December, possibly influenced by holiday shopping, social events, and end-of-year festivities.
 
-
 While crime levels remain relatively stable, they are influenced by social patterns, seasonal events, and major holidays. Assault and malicious mischief generally follow the same trends, with weekend spikes and holiday-related fluctuations standing out as key factors.
 
+# Contributions
+
+We worked together on the exercises during class and then collaborated closely, contributing equally to the assignment. All student have worked on all parts of the assignment, but each student had parts that they were responsible for, this can be seen below. 
+
+| Student              | Main Responsibility           |
+| ---------------------|-------------------------------|
+| Ludovico Cappellato  | Third step                    |
+| Maja Klerk           | Second step                   |
+| Francesco Balducci   | Website, Introduction, First step |
